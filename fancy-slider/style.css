@@ -21,6 +21,7 @@
 .added {
   border: 2px solid #1e1743;
   border-radius: 5px;
+  /* display: none; */
 }
 
 img {
@@ -54,7 +55,11 @@ img {
 .main {
   display: none;
 }
-
+.validation{
+  text-align: center;
+  margin-top: 10px;
+  /* display: none; */
+}
 @media (max-width: 767px) {
   .justify-content-around.align-items-center.mt-3.gallery-header.mb-2 {
     flex-direction: column;
